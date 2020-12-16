@@ -48,12 +48,13 @@ function checkInputs(){
     if(password2Value===''){
         setErrorfor(password2, "Password cannot be blank");
     }else if(passwordValue!==password2Value){
+        alert("Huh Uhh! Please verify your password")
         setErrorfor(password2, "Passwords does not match");
     }else{
         setSuccessfor(password2);
     }
 
-        const element = document.querySelector("#hurray");
+        const element = document.querySelectorAll("#hurray");
 
         const bool = element.classList.contains("success");
         if (bool) {
