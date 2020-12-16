@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script
+      src="https://kit.fontawesome.com/ce92b777fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control" id="hurray">
+          <label>Username</label>
+          <input type="text" placeholder="rohanreddy123" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control" id="hurray">
+          <label>Email</label>
+          <input type="email" placeholder="rohanreddy123@xyz.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Password</label>
+          <input type="password" placeholder="password" id="password" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Password Check</label>
+          <input type="password" placeholder="Password Two" id="password2" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+    
+  </body>
+</html>
